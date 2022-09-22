@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run DHU-Prediction-app.py
+web: sh setup.sh && streamlit run nav3.py
