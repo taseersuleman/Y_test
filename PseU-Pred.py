@@ -8,16 +8,16 @@ selected2 = option_menu(None, ["Home", "Predictor", "Dataset", "Citations"],
 # selected2
 
 if selected2 == "Home":
-    st.header("Predictor for pseudouridine sites in RNA sequences")
+    st.title('PseU-Pred')
     #st.subheader("The DHU-Pred is a web-server for the prediction of Dihydrouridine in transfer RNA (tRNA) "
      #            "modifications.")
-    st.write("The current study focused on the most prevalent uridine modification, named pseudouridine (ψ)."
-             "Uridine is widely produced in nature as uridine monophosphate (uridylate) by de novo synthesis by the decarboxylation of orotidylate, which is catalysed by orotidylate decarboxylase."
-             "The current research work focused on the identification of ψ sites by extracting features from the RNA sequences using novel feature development methodology. "
-             "The benchmark dataset obtained from chen et al (Chen et al., 2016) were used for training as well as model testing and validation."
-             "The dataset composed of RNA sequences belonging to three species homosapiens, saccharomyces cerevisiae and mus musculus designated as HS_990, SC_628 and MM_944 respectively."
-             )
-    image = Image.open('pseudo.PNG')
+    #st.write("The current study focused on the most prevalent uridine modification, named pseudouridine (ψ)."
+     #        "Uridine is widely produced in nature as uridine monophosphate (uridylate) by de novo synthesis by the decarboxylation of orotidylate, which is catalysed by orotidylate decarboxylase."
+      #       "The current research work focused on the identification of ψ sites by extracting features from the RNA sequences using novel feature development methodology. "
+       #      "The benchmark dataset obtained from chen et al (Chen et al., 2016) were used for training as well as model testing and validation."
+        #     "The dataset composed of RNA sequences belonging to three species homosapiens, saccharomyces cerevisiae and mus musculus designated as HS_990, SC_628 and MM_944 respectively."
+         #    )
+    image = Image.open('Flowchart.PNG')
     st.image(image, width=400)
 
 elif selected2 == "Predictor":
