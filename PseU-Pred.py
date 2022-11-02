@@ -17,7 +17,7 @@ if selected2 == "Home":
        #      "The benchmark dataset obtained from chen et al (Chen et al., 2016) were used for training as well as model testing and validation."
         #     "The dataset composed of RNA sequences belonging to three species homosapiens, saccharomyces cerevisiae and mus musculus designated as HS_990, SC_628 and MM_944 respectively."
          #    )
-    image = Image.open('Flowchart.PNG')
+    image = Image.open('Flowchart.png')
     st.image(image, width=400)
 
 elif selected2 == "Predictor":
