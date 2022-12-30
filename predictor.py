@@ -710,7 +710,7 @@ try:
 
     def input_seq():
         st.subheader("Input Sequence of any length")
-        sequence1 = st.text_area("Sequence Input", height=200)
+        sequence1 = st.text_area("Sequence Input", height=20)
         abc = []
         if st.button("Submit"):
 
