@@ -714,7 +714,7 @@ try:
         abc = []
         if st.button("Submit"):
 
-            abc = sequence1
+            abc = sequence1.strip()
             count = []
             keeper = []
             len1 = len(abc)
